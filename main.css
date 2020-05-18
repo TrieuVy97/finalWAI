@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: auto;
+	
+	overflow: hidden;
+}
+.frame{
+	width: 1920px;
+	height: 1080px;
+	background-color: black;
+	overflow: scroll;
+	scroll-behavior: smooth;
+
+
+}
+nav{
+	width: 600px;
+	height: 100px;
+	display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+	margin-top: 800px;
+	position: fixed;
+	z-index: 1;
+	left: 65%;
+}
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	display: inline-block;
+	margin-left: 40px;
+	
+}
+.anh{
+	width: 600px;
+	height: 100px;
+	display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+	margin-top: 800px;
+	position: fixed;
+	z-index: 1;
+	background:url(image/anh-dong.gif);
+}
+.menu{
+	width: 1000px;
+	height: 137px;
+	float: right;
+	margin-left: 800px;
+	margin-top: 30px;
+	position: fixed;
+	font-family: font01;
+	z-index: 1;
+}
+.menu ul{
+	list-style-type: none;
+  	text-align: center;
+	margin-left: 50px;
+}
+.menu li{
+  color: #02dbee;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 10px;
+}
+.menu a {
+  text-decoration: none;
+  color: #02dbee;
+  display: block;
+font-size: 25px;
+	-webkit-box-shadow: 1px 1px 3px 1px #000000;
+box-shadow: 1px 1px 3px 1px #000000;border-radius: 120px;
+}
+.menu a:hover {
+  color: white;
+	border-radius: 120px;
+	background: #02dbee; /* Old browsers */
+background: -moz-linear-gradient(left,  #02dbee 0%, #eb00e1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #02dbee 0%,#eb00e1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #02dbee 0%,#eb00e1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02dbee', endColorstr='#eb00e1',GradientType=1 ); /* IE6-9 */
+
+}
+.logo{
+	width: 150px;
+	height: 137px;
+	float: left;
+	background: url("image/logo.png");
+	margin-left: 150px;
+	position: fixed;
+	z-index: 1;
+}
+@font-face
+{
+	font-family: font01;
+	src: url("font/SVN-Comic Sans MS.ttf");
+}
+@font-face{
+	font-family: font02;
+	src:url("font/Essay Display Regular.otf");
+}
+.container1{
+	width: 1920px;
+	height: 1080px;
+	background: url("image/nén.jpg");
+}
+.image1{
+	width: 950px;
+	height: 1080px;
+	background: url("image/image1.jpg");
+	float: left;
+}
+.content1{
+	width: 700px;
+	height: 325px;
+	float: right;
+	margin-right: 240px;
+	margin-top:350px;
+	
+}
+.text1{
+	font-family: font02;
+	color:#02dbee;
+	font-size:107px;
+	line-height: 80pt;
+}
+.container1 p{
+	color:white;
+	font-size: 12pt;
+}
+.container2{
+	width: 1920px;
+	height: 1080px;
+	background: url("image/nén2.jpg");
+
+}
+.image2{
+	width: 950px;
+	height: 1080px;
+	background: url("image/image2.jpg");
+	float: right;
+}
+.content2{
+	width: 700px;
+	height: 325px;
+	float: left;
+	margin-left: 240px;
+	margin-top: 340px;
+	
+}
+.text2{
+	font-family: font02;
+	color:#eb00e1;
+	font-size:60px;
+	line-height: 50pt;
+
+}
+.container2 p{
+	color:white;
+	font-size: 18pt;
+}
+.container3{
+	width: 1920px;
+	height: 1080px;
+	background: url(image/nen3.jpg);
+
+}
+.content3_left{
+	width: 550px;
+	height: 325px;
+	float: left;
+	margin-left: 300px;
+	margin-top: 250px;
+	
+}
+.content3_right{
+	width: 450px;
+	height: 325px;
+	float: right;
+	margin-right: 250px;
+	margin-top: 250px;
+	
+}
+.text3{
+	font-family: font02;
+	color:#eb00e1;
+	font-size:107px;
+	line-height: 70pt;
+}
+.container3 p{
+	color:white;
+	font-size: 14pt;
+}
+.container4{
+	width: 1920px;
+	height: 1080px;
+	background: url(image/nen4.jpg);
+}
+
+.content4_left{
+	width: 350px;
+	height: 325px;
+	float: left;
+	margin-left: 300px;
+	margin-top: 200px;
+	
+}
+.container4 p{
+	color:white;
+	font-size: 14pt;
+}
+.content4_right{
+	width: 350px;
+	height: 325px;
+	float: right;
+	margin-right: 250px;
+	margin-top: 200px;
+	
+}
+
+.buttonp0 {
+  background-color:black; /* Màu của Quản trị mạng ^^ */
+  border: none;
+  color: #02dbee;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+	margin-left: 40px;
+}
+.button1 {
+  background-color: black; 
+  color: #eb00e1;
+}
+.button1:hover {
+
+  color: #02dbee;
+	border-bottom: 2px solid #02dbee;
+}
+.buttonp1 {
+  background-color:black; /* Màu của Quản trị mạng ^^ */
+  border: none;
+  color: #eb00e1;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+margin-right: 20px;
+}
+.buttonp11 {
+  background-color: black; 
+  color: #eb00e1;
+}
+.buttonp1:hover {
+
+  color: #02dbee;
+	border-bottom: 2px solid #02dbee;
+}
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#02dbee+0,eb00e1+100 */
+
+
+
+
